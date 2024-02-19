@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio-Lina Peña</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Lina Peña</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">ESTUDIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-github fa-beat"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook fa-beat"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>Soy Lina Peña, Desarrolladora Web y Analista de Datos</h2>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Lina Peña</span> </h2>
+            <h3>Desarrolladora Web y Analista de Datos</h3>
+            <p>"Hola, soy Vanesa Peña y actualmente estoy cursando un Tecnólogo en Análisis y Desarrollo de Software en el SENA. Mi pasión por la programación y la tecnología me impulsa a aprender y crecer en este emocionante campo. Estoy abierto a nuevas oportunidades y colaboraciones en el mundo del desarrollo de software.</p>
+            <p> <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        3195572808
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        linavanesabetancourth@gmail.com
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <strong>Dirección</strong>
+                         Bogota, Colombia
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>Desarrolladora Web y Analista de Datos</span>
+                    </li>
+                </ul>
+            </p>
+                
+        </div>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-figma"></i></a>
+        </div>
+        </section>
+    
+    
+    
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS ESTUDIOS</h3>
+        <div class="fila">
+            <div class="servicio" data-aos="flip-left"> 
+                <span class="icono"><i class="fa-solid fa-user-graduate"></i></span>
+                <h4>Bachiller Academico </h4>
+                <hr>
+                <ul class="servicios-tag"> 
+                    <li>Tengo un título de bachillerato de la Institución Educativa San Agustín.</li>
+                </ul>
+            </div>
+            <div class="servicio" data-aos="flip-left"> 
+                <span class="icono"><i class="fa-solid fa-chalkboard-user"></i></span>
+                <h4>Formacion en ingles </h4>
+                <hr>
+                <ul class="servicios-tag"> 
+                    <li>Cuento con una formación complementaria en inglés con el curso "English Dot Works 1."</li>
+                </ul>
+            </div>
+            <div class="servicio" data-aos="flip-left">
+                <span class="icono"><i class="fa-solid fa-building-columns"></i></span>
+                <h4>Formacion Tecnologia en Analisis y Desarrollo de Software</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>En la actualidad, estudio un Tecnólogo en Análisis y Desarrollo de Software en el SENA.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PHP</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto" data-aos="zoom-in"> 
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Creación de pagina web para una veternaria</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto" data-aos="zoom-in"> 
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Creacion de una base de datos</h4>
+                    <p>Base de datos</p>
+                </div>
+            </div>
+            <div class="proyecto" data-aos="zoom-in"> 
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño y creacion de una pagina web</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>© Portafolio-Lina Peña - 2023</p>
+        <p>2617500 ADSO</p>
+        <p>Inspirado en el canal <a href="https://www.youtube.com/@codigoweb" target="_blank">Código Web</a></p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github fa-beat"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-beat"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
